@@ -1699,11 +1699,16 @@ nav{
         left:10%;
     }
     .section-4{
-
         width:80vw;
     }
     .container_heading-1{
         left:10%;
+    }
+    .view-project_1-btn{
+        left:65%;
+    }
+    .view-project_2-btn{
+        left:65%;
     }
 }
 
@@ -1767,6 +1772,13 @@ nav{
 
     .parallax{
         width:85vw;
+    }
+    
+    .view-project_1-btn{
+        left:63%;
+    }
+    .view-project_2-btn{
+        left:63%;
     }
 
 }
@@ -2209,7 +2221,6 @@ nav{
 
 
     .gallery-box{
-     
         transform:translate(0%, 0%) translateZ(-600px);
     }
 
@@ -2333,6 +2344,13 @@ nav{
     .section-4{
         height:45vh;
         width:90vw;
+    }
+    
+    .view-project_1-btn{
+        left:60%;
+    }
+    .view-project_2-btn{
+        left:60%;
     }
     .container_heading-1{
         left:9.6%;
