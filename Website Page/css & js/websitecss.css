@@ -72,10 +72,8 @@ body{
 }
 
 .style_switcher button{
- /* padding:0.5vw 0.6vw;
-  font-size: 1vw;*/
-   padding:0.5rem 0.6rem;
-    font-size: 0.6rem;
+  padding:0.5rem 0.6rem;
+  font-size: 0.6rem;
   border-radius: 50%;
   border-style:none;
   cursor: pointer;
@@ -135,7 +133,6 @@ body{
 
 .slider{
   position:relative;
-  /* background:#000116; */
   width:90vw;
   height:90vh;
   margin:25px;
@@ -226,41 +223,6 @@ transform:translateY(1px);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .page-line1:before{
   content: '';
   position: fixed;
@@ -342,41 +304,6 @@ transform:translateY(1px);
 .click-1:hover{
   color:teal;
 }
-/* .click:before{
-  content:'';
-  position:fixed;
-  top:84%;
-  right:0%;
-  margin-left:6%;
-  height:2rem;
-  width:2rem;
-  border-radius: 50%;
-  background-color:black;
-  color:tomato;
-  display:flex;
-  justify-content:center;
-  text-align: left;
-  align-items:center;
-  transform:translateY(-100%) skewX(15deg) rotate(-45deg);
-
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -387,7 +314,6 @@ nav{
   position:absolute;
   right:0;
   top:1rem;
-  /* margin-top:2.5rem; */
  }
 
 .home_links{
@@ -656,10 +582,6 @@ iframe{
   .style_switcher{
     right:18%;
   }
-  .style_switcher button{
-    /* padding:0.3rem; */
-    font-size: 1.3vw;
-  }
 }
 
 @media (max-width:600px){
@@ -673,6 +595,11 @@ iframe{
     top: 83%;
     transform:translateY(-90%);
   }
+
+  .loader span::before{
+    width:8px;
+    height:8px;
+}
 
   .slider .slide{
     position:absolute;
@@ -690,23 +617,6 @@ iframe{
   width:100%;
   height:80%;
 }
-/* .click:before{
-  content:'Click here to go';
-  position:fixed;
-  top:73%;
-  right:1rem;
-  height:4rem;
-  width:4rem;
-  border-radius:50%;
-  font-size:0.7rem;
-  font-weight: 700;
-  line-height: 15px;
-  display:flex;
-  text-align: center;
-  justify-content:center;
-  align-items:center;
-  transform:translateY(-100%) skewX(0) rotate(0);
-} */
 
 .load{
   position:absolute;
@@ -729,8 +639,7 @@ iframe{
   .slider .slide img{
     position:absolute;
     width:100%;
-    /* height:100%; */
-}
+  }
 
 .navigation{
   width:100%;

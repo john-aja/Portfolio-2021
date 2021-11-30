@@ -66,7 +66,6 @@ body::-webkit-scrollbar {
 .style_switcher{
     position:absolute;
     margin-top:0.35rem;
-    /*top:3.2rem;*/
     right:17%;
     display: flex;
     gap:1rem;
@@ -75,8 +74,6 @@ body::-webkit-scrollbar {
 .style_switcher button {
      padding:0.9rem 1.1rem;
     font-size: 1.1rem;
-   /* padding: 0.5vw 0.6vw;
-    font-size: 1.2vw;*/
     border-radius: 50%;
     border-style: none;
     cursor: pointer;
@@ -97,33 +94,18 @@ body::-webkit-scrollbar {
 /* Image Container //////////////////////////////////////////////////////////// */
 
 
-
-/* .image-container{
-    width:100vw;
-    padding:0 5rem 5rem 5rem;
-    border-bottom:3rem;
-} */
-
-
 .container_1{
     width:100%;
-    /* position:absolute; */
     margin-top:10rem;
     margin-left:50%;
     transform:translateX(-50%);
     display: flex;
     flex-direction: row;
-    /* gap: auto; */
     justify-content: space-around;
 }
 
 .container_2{
     width: 74%;
-    /* margin-left: 14.5rem; */
-    /* position:absolute; */
-    /* top:42rem;
-    left:50%; */
-    /* margin-top:-12rem; */
     margin-left:50%;
     transform:translate(-33%, -100%);
     display: flex;
@@ -133,8 +115,6 @@ body::-webkit-scrollbar {
 
 .container_3{
     width:100%;
-    /* position:absolute;
-    top:75rem; */
     margin-left:50%;
     transform:translate(-50%, -80%);
     display: flex;
@@ -144,8 +124,6 @@ body::-webkit-scrollbar {
 
 .container_4{
     width:100%;
-    /* position:absolute;
-    top:108rem; */
     margin-left:50%;
     transform:translate(-50%, -60%);
     display: flex;
@@ -155,8 +133,6 @@ body::-webkit-scrollbar {
 
 .container_5{
     width:100%;
-    /* position:absolute;
-    top:140rem; */
     margin-left:50%;
     transform:translate(-50%, -35%);
     display: flex;
@@ -211,7 +187,6 @@ img.hover-image-1{
 }
 
 .image-1 img{
-    /* height:60rem; */
     height:46.5vw;
     transition: all 0.5s ease-out;
 }
@@ -656,6 +631,35 @@ img.hover-image-15{
 
 
 
+img.hover-image-16{
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+}
+
+.image-16:hover img{
+    opacity:0;
+}
+
+.image-16:hover img.hover-image-16{
+    z-index: 999;
+    opacity:1;
+}
+
+.image-16{
+    position: relative;
+    transition: all 0.5s ease-out;
+}
+
+.image-16:hover{
+    transform:scale(1.05);
+}
+
+.image-16 img{
+    transition: all 0.5s ease-out;
+}
+
 
 /* Custom Cursor //////////////////////////////////////// */
 
@@ -694,10 +698,8 @@ img.hover-image-15{
     content: 'Designs';
     position:absolute;
     top:-1rem;
-    /* writing-mode: vertical-rl;  */
     left:3%;
     font-family: 'Archivo', sans-serif; 
-    /* height:100rem; */
     font-size: 12rem;
     font-weight: 800;
     z-index:-100;
@@ -1039,36 +1041,7 @@ nav{
 
   /* Media Query//////////////////////////////////////////////////// */
 
- @media (max-width:1265px){
-    /* img{
-        height:25rem;
-    }
-  
-    .image-1 img{
-        height:53rem;
-    } */
-    /* .container_2{
-        top:38rem;
-    }
-    .container_3{
-        top:67rem;  
-    }
-    .container_4{
-        top:96rem;
-    }
-    .container_5{
-        top:125rem;
-    }*/
-} 
 
-@media (max-width:1120px){
-    /* img{
-        height:23rem;
-    }
-    .image-1 img{
-        height:51rem;
-    }   */
-}
 
 @media (max-width:1050px){
     .style_switcher{
@@ -1079,24 +1052,7 @@ nav{
 }
 
 @media (max-width:1038px){
-    /* img{
-        height:20rem;
-    }
-    .image-1 img{
-        height:45rem;
-    } */
-    /* .container_2{
-        top:35rem;
-    }
-    .container_3{
-        top:60rem;  
-    }
-    .container_4{
-        top:85rem;
-    }
-    .container_5{
-        top:109rem;
-    } */
+    
     .popup_image img{
         position:fixed;
         top:50%;
@@ -1108,27 +1064,6 @@ nav{
     }
 }
 
-@media (max-width:900px){
-    /* img{
-        height:17rem;
-    }
-    .image-1 img{
-        height:36rem;
-    } */
-    /* .container_2{
-        top:29rem;
-        left:44%;
-    }
-    .container_3{
-        top:48.5rem;  
-    }
-    .container_4{
-        top:68rem;
-    }
-    .container_5{
-        top:88rem;
-    } */
-}
 
 @media (max-width:800px){
 .wait{
@@ -1143,50 +1078,12 @@ nav{
 
 
 @media (max-width:760px){
-    /* img{
-        height:15rem;
-    }
-    .image-1 img{
-        height:33rem;
-    } */
-    /* .container_2{
-        top:28rem;
-        left:42%;
-    }
-    .container_3{
-        top:45.5rem;  
-    }
-    .container_4{
-        top:63.5rem;
-    }
-    .container_5{
-        top:82.5rem;
-    } */
     .fake-title:before{
         top:1rem;
     }
 }
 
 @media (max-width:700px){
-    /* img{
-        height:13rem;
-    }
-    .image-1 img{
-        height:28rem;
-    } */
-    /* .container_2{
-        top:25rem;
-        left:40%;
-    }
-    .container_3{
-        top:39.5rem;  
-    }
-    .container_4{
-        top:54.5rem;
-    }
-    .container_5{
-        top:69.5rem;
-    } */
 
     .loader{
         width:10vw;
@@ -1211,28 +1108,10 @@ nav{
         top:3.3rem;
         right:23%;
     }
-}
-
-@media (max-width:600px){
-    /* img{
-        height:10rem;
+    .loader span::before{
+        width:8px;
+        height:8px;
     }
-    .image-1 img{
-        height:23rem;
-    } */
-    /* .container_2{
-        top:23rem;
-        left:37%;
-    }
-    .container_3{
-        top:34.5rem;  
-    }
-    .container_4{
-        top:46.5rem;
-    }
-    .container_5{
-        top:58.5rem;
-    } */
 }
 
 
@@ -1258,7 +1137,6 @@ nav{
         display:flex;
         flex-direction: column;
         gap:3rem;
-        /* justify-content: center; */
     }  
 
     .container_2{
@@ -1267,7 +1145,6 @@ nav{
         margin-top:3rem;
         margin-left:50%;
         justify-content: center;
-        /* left:50%; */
         gap:3rem;
         transform:translateX(-50%);
     }  
@@ -1277,14 +1154,11 @@ nav{
         flex-direction: column;
         margin-top: 52.5rem;
         gap: 3rem;
-        /* top:161rem;
-        gap:3rem; */
     }  
 
     .container_4{
         display:flex;
         flex-direction: column;
-        /* top:210rem; */
         margin-top:-7rem;
         gap:3rem;
     }  
@@ -1292,8 +1166,7 @@ nav{
     .container_5{
         display:flex;
         flex-direction: column;
-        margin-top: -24rem;
-        /* top:263rem; */
+        margin-top: -12rem;
         gap:3rem;
     }  
      .popup_image{
@@ -1322,7 +1195,7 @@ nav{
         margin-top: -5rem;
     }
     .container_5 {
-        margin-top: -18rem;
+        margin-top: -8rem;
     }
     .style_switcher{
         position:absolute;
