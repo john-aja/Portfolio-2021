@@ -1925,6 +1925,7 @@ nav{
     .parallax_wrapper{
         margin-top: 180vh;
     }
+    
     .parallax_wrapper:before{
         background-size: 160% 90%;
         background-repeat: no-repeat;
@@ -2155,7 +2156,7 @@ nav{
     }
 
     .parallax_wrapper:before{
-        background-size: 160% 90%;
+        background-size: 160% 100%;
         background-repeat: no-repeat;
     }
 
@@ -2164,7 +2165,7 @@ nav{
         margin-top:135rem;
         margin-bottom:60rem;
 
-        background-size: 140% 75%;
+        background-size: 140% 85%;
         background-repeat: no-repeat;
     }
 
@@ -2173,7 +2174,7 @@ nav{
     }
 
     .regular_wrapper_1:before{
-        background-size: 140% 80%;
+        background-size: 140% 90%;
         background-repeat: no-repeat;
         left:3rem;
     }
@@ -2183,7 +2184,7 @@ nav{
     }
     
     .regular_wrapper_2{
-        background-size: 110% 65%;
+        background-size: 110% 75%;
         background-repeat: no-repeat;
     }
     .regular_wrapper_3{
@@ -2191,13 +2192,13 @@ nav{
     }
 
     .regular_wrapper_3:before{
-        background-size: 120% 70%;
+        background-size: 120% 80%;
         background-repeat: no-repeat;
     }
 
     .regular_wrapper_4{
         margin-top:90rem;
-        background-size: 115% 70%;
+        background-size: 115% 80%;
         background-repeat: no-repeat;
     }
 
@@ -2206,7 +2207,7 @@ nav{
     }
 
     .regular_wrapper_5:before{
-        background-size: 120% 70%;
+        background-size: 120% 80%;
         background-repeat: no-repeat;
     }
 
@@ -2344,6 +2345,30 @@ nav{
     .section-4{
         height:45vh;
         width:90vw;
+    }
+    .parallax_wrapper:before{
+        background-size: 160% 90%;
+        background-repeat: no-repeat;
+    }
+
+    .regular_wrapper{
+        background-size: 140% 75%;
+        background-repeat: no-repeat;
+    }
+    .regular_wrapper_1:before{
+        background-size: 140% 80%;
+    }
+    .regular_wrapper_2{
+        background-size: 110% 65%;
+    }
+    .regular_wrapper_3:before{
+        background-size: 120% 70%;
+    }
+    .regular_wrapper_4{
+        background-size: 115% 70%;
+    }
+    .regular_wrapper_5:before{
+        background-size: 120% 70%;
     }
     
     .view-project_1-btn{
