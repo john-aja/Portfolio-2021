@@ -376,6 +376,7 @@ nav{
     margin-left:10%;
     font-size:18vw;
     z-index:-100;
+    width:30%;
     font-family: 'Archivo Black', sans-serif;
     opacity: 0.6;
     font-weight: 700;
@@ -2121,9 +2122,9 @@ nav{
     html{
         font-size:30%;
     }
-    /* .type{
-        top:37rem;
-    } */
+    .section-3{
+        margin-left: 5rem;
+    }
     .parallax_intro{
         /* font-size:7rem; */
         -webkit-text-stroke:1px white;
@@ -2385,6 +2386,13 @@ nav{
 
 
   @media (max-width:408px){
+    html{
+        font-size:17%;
+    }
+    .type{
+        margin-top:40%;
+        transform:translateY(-91%);
+    }
     .card:hover img{
         transform:translate(-50%,24.5%);
         height:65rem;
@@ -2420,11 +2428,5 @@ nav{
     }
     .regular_wrapper_5{
         margin-top:5vh;
-    }
-  }
-
-  @media (max-width:408px){
-    html{
-        font-size:17%;
     }
   }
