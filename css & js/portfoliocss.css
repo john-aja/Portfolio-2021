@@ -87,6 +87,7 @@ html{
     font-size:50%;
     scrollbar-width:normal;
     scrollbar-color:green;
+    overflow-x:hidden ;
 }
 html::-webkit-scrollbar {
 width:0.7vw;
@@ -115,7 +116,7 @@ body{
 .style_switcher{
     position:absolute;
     top:15rem;
-    right:2rem;
+    right:3rem;
     display: flex;
     flex-direction: column;
     gap:1rem;
@@ -463,7 +464,7 @@ nav{
     position:absolute;
     font-size:2rem;
     left:85%;
-    top:5%;
+    top:5rem;
     width:5rem;
     height: 5rem;
     display:flex;
@@ -2314,6 +2315,9 @@ nav{
     .parallax{
         height:47vh;
         width:85vw;
+    }
+    .style_switcher button{
+        font-size: 1.7vw;
     }
 }
 
