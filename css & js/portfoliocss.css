@@ -88,7 +88,7 @@ html{
     font-size:50%;
     scrollbar-width:normal;
     scrollbar-color:green;
-    max-width: 100vw;
+    max-width: 100%;
     overflow-x:hidden;
 }
 html::-webkit-scrollbar {
@@ -105,9 +105,8 @@ html::-webkit-scrollbar-track{
 body{
     background-image:var(--main-bg-color); 
     background-repeat:no-repeat;
-    overflow-x: hidden;
+    overflow-x: none;
     max-width: 100vw;
-
     -youbkit-touch-callout: none;
     -youbkit-user-select: none;   
     -moz-user-select: none;    
@@ -2387,7 +2386,7 @@ nav{
         left:9.6%;
     }
     .fake-design-1{
-        margin-top:-9rem;
+        margin-top:-5rem;
     }
 
   }
@@ -2395,6 +2394,9 @@ nav{
 
   @media (max-width:380px){
   .gallery-box img {
-    max-width: 50%;
+    max-width: 52%;
+}
+.fake-design-1{
+    margin-top:-2rem;
 }
 }
