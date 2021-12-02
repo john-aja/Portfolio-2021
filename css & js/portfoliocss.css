@@ -596,7 +596,7 @@ nav{
 
 .btn--close-modal{
     position: absolute;
-    padding:1rem 2rem;
+    padding:1rem 2.5rem;
     left:90%;
     top:3%;
     font-size:5rem;
@@ -2426,9 +2426,9 @@ nav{
 
   @media (max-width:380px){
   .gallery-box img {
-    max-width: 54%;
+    max-width: 45%;
 }
 .fake-design-1{
-    margin-top:-2rem;
+    margin-top:0rem;
 }
 }
