@@ -1,4 +1,5 @@
 @import '~font-awesome/scss/font-awesome';
+
 *, *:after, *:before{
 	margin: 0;
 	padding: 0;
@@ -15,7 +16,8 @@
                                     0 1px 3px black,
                                     0 2px 4px black;
                      --link-color:hsl(0, 0%, 64%);	
-                     --title-text:white;	
+                     --title-text:white;
+                     --parallax-intro: white;	
                      --fake-design-color:rgba(128, 128, 128, 0.104);
                      --fake-design-shadow: 1px 1px 4px rgba(0, 0, 0, 0.145),
                                                  1px 2px 4px rgba(0, 0, 0, 0.145),
@@ -25,6 +27,7 @@
                                                  1px 6px 4px rgba(0, 0, 0, 0.115),
                                                  1px 7px 4px rgba(0, 0, 0, 0.100);
                      --page-line-color:  rgb(5, 5, 5);
+
                      --menu-items-bg:#0a0a0a;
                      --menu-items-a-color:white;
                      --menu-info-bg: #0000005d;
@@ -60,7 +63,7 @@
    									0 1px 3px black;	
                       --link-color:hsl(0, 0%, 100%);
                       --title-text:rgb(51, 51, 51);	
-                 
+                      --parallax-intro: #181818;
                       --page-line-color: rgb(255, 255, 255);
                       --menu-items-bg:#d1d1d1;
                       --menu-items-a-color:rgb(0, 0, 0);
@@ -100,6 +103,15 @@ html::-webkit-scrollbar-thumb{
 }
 html::-webkit-scrollbar-track{
     background-color: rgb(67, 67, 67);
+}
+
+.all{
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -825,7 +837,7 @@ nav{
     transform:translate(-50%, -50%);
     color:transparent;
     z-index:1;
-    -webkit-text-stroke:2px white;
+    -webkit-text-stroke:2px var(--parallax-intro);
     text-shadow: none;
 }
 
@@ -2315,7 +2327,7 @@ nav{
         width:85vw;
     }
     .style_switcher button{
-        font-size: 1.7vw;
+        font-size: 1.55vw;
     }
 }
 
@@ -2386,7 +2398,7 @@ nav{
         left:9.6%;
     }
     .fake-design-1{
-        margin-top:-5rem;
+        margin-top:-12rem;
     }
 
   }
@@ -2394,9 +2406,9 @@ nav{
 
   @media (max-width:380px){
   .gallery-box img {
-    max-width: 52%;
+    max-width: 54%;
 }
 .fake-design-1{
-    margin-top:-2rem;
+    margin-top:-7rem;
 }
 }
