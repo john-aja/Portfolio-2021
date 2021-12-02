@@ -1182,6 +1182,12 @@ nav{
     height:50%;
     object-fit: cover;
 }
+.fake-title:before{
+    position:fixed;
+    top:5rem;
+    writing-mode: vertical-lr;
+    transform:rotate(180deg);
+}
 
 }
 
