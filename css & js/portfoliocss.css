@@ -2398,7 +2398,27 @@ nav{
         left:9.6%;
     }
     .fake-design-1{
-        margin-top:-12rem;
+        margin-top:-8rem;
+    }
+    .skill-point:before{
+        content:'';
+        height:2%;
+        width:14rem;
+        background-color:teal;
+        position:absolute;
+        top:8rem;
+        left:1rem;
+        opacity:0.9;
+        z-index:-1;
+    }
+
+    
+    .skill-point_2:before{
+        top:26.5rem;
+    }
+    
+    .skill-point_3:before{
+        top:36rem;
     }
 
   }
@@ -2409,6 +2429,6 @@ nav{
     max-width: 54%;
 }
 .fake-design-1{
-    margin-top:-7rem;
+    margin-top:-2rem;
 }
 }
