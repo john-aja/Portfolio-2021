@@ -46,20 +46,21 @@
 }
 
 .light_theme{
-    --main-bg-color:linear-gradient(to bottom right, #dcdcdc,#cacaca,#c5c5c5, #b6b6b6);
+    --main-bg-color: linear-gradient(to bottom right, #ededed,#dfdfdf,#e7e7e7, #e4e4e4);
+    --fake-design-color: #ffffff00;
+    --fake-design-shadow: 0px 0px 0 rgba(243, 243, 243, 0.507), 
+                         0px -1px 0 rgb(232,232,232, 0.507), 
+                         0px -2px 0 rgb(220,220,220, 0.507), 
+                         0px -3px 0 rgb(208,208,208, 0.507), 
+                         0px -4px 0 rgb(196,196,196, 0.507), 
+                         0px -5px 4px rgba(148,148,148,0.5), 
+                         0px -5px 1px rgba(148,148,148,0.5), 
+                         0px 0px 4px rgba(148,148,148,.2);
     /* text-shadow:*/ --navi-shadow:0 0px 1px rgb(167, 167, 167),
    									0 1px 3px black;	
                       --link-color:hsl(0, 0%, 100%);
                       --title-text:rgb(51, 51, 51);	
-                      --fake-design-color:rgba(94, 94, 94, 0.104);
-                      --fake-design-shadow:0px 0px 0 rgba(243, 243, 243, 0.707),
-                                           0px -1px 0 rgb(232,232,232, 0.707),
-                                           0px -2px 0 rgb(220,220,220, 0.707),
-                                           0px -3px 0 rgb(208,208,208, 0.707),
-                                           0px -4px  0 rgb(196,196,196, 0.707),
-                                           0px -5px 4px rgba(148,148,148,1),
-                                           0px -5px 1px rgba(148,148,148,0.5),
-                                           0px 0px 4px rgba(148,148,148,.2);
+                 
                       --page-line-color: rgb(255, 255, 255);
                       --menu-items-bg:#d1d1d1;
                       --menu-items-a-color:rgb(0, 0, 0);
@@ -87,7 +88,8 @@ html{
     font-size:50%;
     scrollbar-width:normal;
     scrollbar-color:green;
-    overflow-x:hidden ;
+    max-width: 100vw;
+    overflow-x:hidden;
 }
 html::-webkit-scrollbar {
 width:0.7vw;
@@ -104,7 +106,7 @@ body{
     background-image:var(--main-bg-color); 
     background-repeat:no-repeat;
     overflow-x: hidden;
-
+    max-width: 100vw;
 
     -youbkit-touch-callout: none;
     -youbkit-user-select: none;   
@@ -120,6 +122,7 @@ body{
     display: flex;
     flex-direction: column;
     gap:1rem;
+    z-index:999;
 }
 
 .style_switcher button{
@@ -249,8 +252,8 @@ nav{
 }
 
 .design-1{
-    border-top:30px solid transparent;
-    border-left:30px solid tomato;
+    border-top:3.8rem solid transparent;
+    border-left:3.8rem solid tomato;
     display:inline-block;
     position:absolute;
     margin-top:10rem;
@@ -261,8 +264,8 @@ nav{
 .design-1:before{
     content:'';
     position:absolute;
-    border-top:30px solid transparent;
-    border-left:30px solid tomato;
+    border-top:3.8rem solid transparent;
+    border-left:3.8rem solid tomato;
     opacity: 0.5;
     right:0.5rem;
     bottom:-0.5rem;
@@ -273,9 +276,10 @@ nav{
     height:5rem;
     width:5rem;
     position:absolute;
-    left:90%;
+    right:20rem;
+    /* left:90%; */
     top:60rem;
-    margin-right:15rem;
+    right:15rem;
     border:12px solid teal;
     border-radius:1.3rem;
     display:inline-block;
@@ -802,7 +806,7 @@ nav{
     top:50%;
     left:50%;
     transform:translate(-50%, -50%);    
-    background:rgba(0, 0, 0, 0.659);
+    background:rgba(0, 128, 128, 0.419);
     clip-path: circle(50px at center center);
     display:flex;
     justify-content: center;
@@ -1866,17 +1870,11 @@ nav{
         font-size:30%;
     }
     .design-3{
+        right:10rem;
         border:7px solid teal;
     }
 
-    .design-1{
-        border-top:20px solid transparent;
-        border-left:20px solid tomato;
-    }
-    .design-1:before{
-        border-top:20px solid transparent;
-        border-left:20px solid tomato;
-    }
+    
     .card .card-circle{
         height:110%;
     }
@@ -2047,7 +2045,7 @@ nav{
     }  
 
     .design-3{
-        left:82%;
+       right:5rem;
     }
 
 
@@ -2211,6 +2209,7 @@ nav{
         background-size: 120% 80%;
         background-repeat: no-repeat;
     }
+
 
     
     .gallery-box img{
@@ -2387,5 +2386,15 @@ nav{
     .container_heading{
         left:9.6%;
     }
+    .fake-design-1{
+        margin-top:-9rem;
+    }
 
   }
+
+
+  @media (max-width:380px){
+  .gallery-box img {
+    max-width: 50%;
+}
+}

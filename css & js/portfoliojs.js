@@ -132,7 +132,10 @@ const revealSection = function (entries, observer) {
     const [entry] = entries;
 
     if (!entry.isIntersecting) return;
-    else if (window.innerWidth < 600) { document.querySelector('#about_section').classList.remove('section-hidden') };
+    else if (window.innerWidth < 600) {
+        document.querySelector('#about_section').classList.remove('section-hidden');
+        document.querySelector('.section-3').classList.remove('section-hidden')
+    };
     entry.target.classList.remove('section-hidden');
     observer.unobserve(entry.target);
 };
