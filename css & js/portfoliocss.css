@@ -218,7 +218,7 @@ nav{
     text-align: left;
     font-family: 'Archivo Black', sans-serif;
     margin-top:50vh;
-    transform:translateY(-48vh);
+    transform:translateY(-47vh);
     line-height: 1;
     display:inline-block;
     color:var(--title-text);
@@ -283,12 +283,11 @@ nav{
 }
 
 
-.design-3{
+/* .design-3{
     height:5rem;
     width:5rem;
     position:absolute;
     right:20rem;
-    /* left:90%; */
     top:60rem;
     right:15rem;
     border:12px solid teal;
@@ -296,7 +295,7 @@ nav{
     display:inline-block;
     animation:spin2 10s linear infinite;
     z-index: -1;
-}
+} */
 
 
 @keyframes spin1 {
@@ -331,7 +330,7 @@ nav{
 }
 
 .fake-design-1{
-    margin-top:-15rem;
+    margin-top:-8%;
     margin-left:10%;
     font-size:18vw;
     z-index:-100;
@@ -348,7 +347,7 @@ nav{
     writing-mode: vertical-rl; 
     margin-left:85%;
     display: inline-block;
-    font-size: 12rem;
+    font-size: 8vw;
     z-index:-100;
     font-family: 'Archivo Black', sans-serif;
     white-space: nowrap;
@@ -359,13 +358,13 @@ nav{
 }
 
 .section-3{
-    margin-top:15rem;
+    margin-top:20rem;
     margin-left: 10rem;
     white-space: nowrap;
 }
 
 .section-3 .fake-work{
-    font-size: 12rem;
+    font-size: 8vw;
     font-family: 'Archivo Black', sans-serif;
     color:var(--fake-design-color);
     text-shadow: var(--fake-design-shadow);
@@ -1702,9 +1701,9 @@ nav{
 
 @media (max-width:1140px){
 
-    .fake-design-1{
+    /* .fake-design-1{
         margin-top:-14rem;
-    }
+    } */
    
     .parallax{
         width:80vw;
@@ -1798,9 +1797,9 @@ nav{
 }
 
 @media (max-width:910px){
-    .fake-design-1{
+    /* .fake-design-1{
         margin-top:-13rem;
-    }
+    } */
 }
 
 @media (max-width:800px){
@@ -2000,9 +1999,9 @@ nav{
     html{
         font-size:26%;
     }
-    .fake-design-1{
+    /* .fake-design-1{
         margin-top:-12rem;
-    }
+    } */
     .skill-point_3:before{
         top:36.7rem;
     }
@@ -2395,9 +2394,9 @@ nav{
     .container_heading{
         left:9.6%;
     }
-    .fake-design-1{
-        margin-top:-8rem;
-    }
+    /* .fake-design-1{
+        margin-top:-13rem;
+    } */
     .skill-point:before{
         content:'';
         height:2%;
@@ -2440,10 +2439,10 @@ nav{
 
 
   @media (max-width:380px){
-  .gallery-box img {
-    max-width: 45%;
-}
-.fake-design-1{
-    margin-top:0rem;
-}
+    .gallery-box a:last-child img {
+        margin-left: 48%;
+    }
+/* .fake-design-1{
+    margin-top:-5%;;
+} */
 }
