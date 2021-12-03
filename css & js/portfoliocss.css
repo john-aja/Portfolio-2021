@@ -72,7 +72,7 @@
                       --project-btncolor:rgb(0, 0, 0);
                       --project-btn-webkitreflect:below 0px linear-gradient(transparent, rgba(255, 255, 255, 0.133));
                       --section-4-bg:rgba(255, 255, 255, 0.693);
-                      --skill_card-bf-bgimage:linear-gradient(to bottom right, #b6b6b6d7,#bababad9,#c5c5c52c, #c9c9c931);
+                      --skill_card-bf-bgimage:linear-gradient(to bottom right, #e2e2e2d7,#e0dcdcd9,#c5c5c52c, #c9c9c961);
                       --skill_card_bf_bxshadow:-1px 0px 2px rgb(97, 96, 96);
                       --skill_card-af-clr:rgb(0, 0, 0);
                       --skill_content:black;
@@ -1007,8 +1007,6 @@ nav{
     border-top: 2px solid teal;
     border-left: 2px solid teal;
     transition: 0.7s;
-
-
 }
 
 .view-project_1-btn:hover:before{
@@ -2411,14 +2409,31 @@ nav{
         opacity:0.9;
         z-index:-1;
     }
-
-    
     .skill-point_2:before{
         top:26.7rem;
     }
-    
+
     .skill-point_3:before{
-        top:36rem;
+        top:36.1rem;
+    }
+    .view-project_1-btn:before{
+        height:5px;
+        width:5px;
+    }
+
+    .view-project_1-btn:after{
+        height:5px;
+        width:5px;
+    }
+
+    .view-project_2-btn:before{
+        height:5px;
+        width:5px;
+    }
+
+    .view-project_2-btn:after{
+        height:5px;
+        width:5px;
     }
 
   }
