@@ -1885,7 +1885,7 @@ nav {
 
 
     .parallax_intro {
-        -webkit-text-stroke: 1px white;
+        -webkit-text-stroke: 1px var(--parallax-intro);
     }
 
     .parallax:before {
@@ -2014,7 +2014,7 @@ nav {
 
 
     .parallax_intro {
-        -webkit-text-stroke: 1px white;
+        -webkit-text-stroke: 1px var(--parallax-intro);
     }
 
     .parallax:before {
@@ -2081,7 +2081,7 @@ nav {
     }
 
     .parallax_intro {
-        -webkit-text-stroke: 1px white;
+        -webkit-text-stroke: 1px var(--parallax-intro);
     }
 
     .parallax:before {
@@ -2196,7 +2196,7 @@ nav {
     }
 
     .parallax_intro {
-        -webkit-text-stroke: 0.5px white;
+        -webkit-text-stroke: 0.5px var(--parallax-intro);
         top: 45%;
     }
 
@@ -2344,7 +2344,7 @@ nav {
 
 @media (max-width:500px) {
     .parallax_intro {
-        -webkit-text-stroke: 0.2px white;
+        -webkit-text-stroke: 0.2px var(--parallax-intro);
     }
 
     .section-4 {
@@ -2454,9 +2454,6 @@ nav {
         left: 9.6%;
     }
 
-    /* .fake-design-1{
-        margin-top:-13rem;
-    } */
     .skill-point:before {
         content: '';
         height: 2%;
