@@ -976,6 +976,17 @@ nav {
     white-space: nowrap;
 }
 
+.regular_wrapa {
+    margin-top: 50vh;
+    /* margin-bottom: 10rem; */
+    height: 100%;
+    width: 100%;
+    background-image: url(./ProjectMockup/BlueConst.png);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
 
 .project_btn {
     margin-top: 7rem;
@@ -1771,6 +1782,11 @@ nav {
         background-repeat: no-repeat;
     }
 
+    .regular_wrapa {
+        background-size: 115% 95%;
+        background-repeat: no-repeat;
+    }
+
     .regular_wrapper_4 {
         background-size: 115% 80%;
         background-repeat: no-repeat;
@@ -1870,6 +1886,11 @@ nav {
 
     .regular_wrapper_3:before {
         background-size: 120% 70%;
+        background-repeat: no-repeat;
+    }
+
+    .regular_wrapa {
+        background-size: 115% 90%;
         background-repeat: no-repeat;
     }
 
@@ -1994,6 +2015,11 @@ nav {
 
     .regular_wrapper_3:before {
         background-size: 120% 90%;
+        background-repeat: no-repeat;
+    }
+
+    .regular_wrapa {
+        background-size: 115% 100%;
         background-repeat: no-repeat;
     }
 
@@ -2246,6 +2272,11 @@ nav {
         background-repeat: no-repeat;
     }
 
+    .regular_wrapa {
+        background-size: 115% 90%;
+        background-repeat: no-repeat;
+    }
+
     .regular_wrapper_4 {
         margin-top: 90rem;
         background-size: 115% 80%;
@@ -2428,6 +2459,10 @@ nav {
 
     .regular_wrapper_3:before {
         background-size: 120% 70%;
+    }
+
+    .regular_wrapa {
+        background-size: 115% 80%;
     }
 
     .regular_wrapper_4 {
