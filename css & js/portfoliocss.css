@@ -2334,15 +2334,6 @@ nav {
         height: 10px;
         width: 10px;
     }
-
-    .home_links {
-        opacity: 0;
-    }
-
-    .menu-button {
-        visibility: visible;
-        opacity: 1;
-    }
 }
 
 
@@ -2404,12 +2395,23 @@ nav {
     .style_switcher button {
         font-size: 1.55vw;
     }
+
+    .home_links {
+        opacity: 0;
+    }
+
+    .menu-button {
+        visibility: visible;
+        opacity: 1;
+    }
 }
 
 @media (max-width:430px) {
     html {
         font-size: 18%;
     }
+
+
 }
 
 
