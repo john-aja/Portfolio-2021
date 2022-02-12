@@ -1,0 +1,452 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*:focus{
+	outline: none;
+}
+
+body{
+    background-color: rgba(214, 214, 211, 0.466);
+    height: 100vh;
+    padding: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0 2rem;
+}
+
+.greet{
+    font-size: 25px;
+    color:rgb(66, 65, 65);
+}
+
+.logo{
+    height:4rem;
+}
+
+.in{
+  display:flex;
+  box-sizing: inherit;
+}
+#user-name{
+    width:8rem;
+    height:2.4rem;
+    margin-left:0.5rem;
+    margin-right:1rem;
+    text-align:center;
+    border-radius:25px;
+    border-style:none;
+    font-size:17px;
+}
+
+#pin{
+    width:8rem;
+    height:2.4rem;
+    text-align:center;
+    border-radius:25px;
+    border-style:none;
+    font-size:17px;
+}
+
+#user-name:focus,
+#pin:focus{
+    outline:none;
+    border: 1px solid gray;
+}
+
+input::placeholder{
+    color: rgb(190, 184, 184);
+  }
+
+  .enter{
+      position:relative;
+      margin-left:1rem;
+      border-right:1rem;
+      font-size:2rem;
+      border:none;
+      background: none;
+      cursor: pointer;
+  }
+
+  .section-2{
+      display:grid;
+      grid-template-columns: 2fr 1fr;
+      /* max-width:80rem; */
+      /* position:relative; */
+      margin-top: 5rem;
+     /* justify-items: center; */
+     margin-left:12%;
+}
+
+.amount{
+    font-size: 3rem;
+    color:rgb(66, 65, 65);
+    margin-left:24%;
+}
+
+.current-balance{
+    font-size:1.6rem;
+    color:rgb(66, 65, 65);
+    /* margin-left:-12rem; */
+}
+.current-date{
+    color:rgb(128, 125, 125);
+    /* margin-left:12%; */
+}
+
+.panel{
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    margin-top: 3rem;
+    margin-left:12%;
+    
+}
+
+.section-3{
+    
+    height:35.3rem;
+    background-color: white;
+    border-radius: 9px;
+    overflow: scroll;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.transactions{
+    display:grid;
+    grid-column:1 / span 3;
+    justify-content: space-between; 
+    align-items:center;
+    padding:1rem;
+    border-bottom: 0.5px solid rgb(218, 216, 216);
+    color:rgb(66, 65, 65);
+}
+
+.transacted{
+    margin-left:auto;
+    grid-column:2 / span 2;
+    font-size:1.2rem;
+    margin-top: -1.7rem;
+}
+
+.date{
+    margin-right:18rem;
+    font-size:0.8rem;
+}
+
+.transaction{
+    display:grid;
+    justify-items: center;
+    font-size:0.8rem;
+    margin-right:1rem;
+    padding: 0.2rem 0.4rem;
+    color:white;
+    border-radius:9rem;
+    text-transform: uppercase;
+
+}
+
+.type-deposit{
+    background-image: linear-gradient(to top left, #39b385, #9be15d);
+}
+
+.type-withdrawal{
+    background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+}
+
+.section-4{
+  margin-left:2rem;
+  /* width:70%; */
+  width:26rem;
+  height:11rem;
+  background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+  border-radius: 1rem;
+}
+
+.transfer{
+    padding:2rem 0 1rem 2rem;
+    color:rgb(66, 65, 65);
+}
+
+.money-transfer{
+    padding:0.5rem 1rem 1rem 2rem;
+}
+
+.name{
+    width:8rem;
+    height:1.8rem;
+    border:none;
+    border-radius: 17px;
+    margin-right: 1rem;
+    text-align: center;
+    font-size:1.2rem;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.name:focus{
+    background-color: rgba(255, 255, 255, 0.671);
+}
+
+.info{
+    display:inline-block;
+    padding:0.5rem 3.2rem 0 0.5rem;
+    margin-left: 1rem;
+    color:rgb(82, 80, 80);
+}
+
+.btn{
+    font-size:1.3rem;
+    width:3rem;
+    border:none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    color:rgb(184, 179, 179);
+}
+
+.section-5{
+    margin-left:2rem;
+    /* width:70%; */
+    width:26rem;
+    height:11rem;
+    background-image: linear-gradient(to top left, #39b385, #9be15d);
+    border-radius: 1rem;
+    margin-top:1rem;
+  }
+
+.section-6{
+    margin-left:2rem;
+    /* width:70%; */
+    width:26rem;
+    height:11rem;
+    background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+    border-radius: 1rem;
+    margin-top:1rem;
+}
+
+.info-1{
+    display:inline-block;
+    padding:0.5rem 3.2rem 0 0;
+    margin-left: 0.5rem;
+    color:rgb(68, 67, 67);
+}
+
+.summary{
+    position: relative;
+    /* display:flex; */
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    flex-direction: row;
+    margin-left:12%;
+    margin-top:2rem;
+}
+
+.summary-base{
+font-size:0.8rem;
+border:none;
+cursor: pointer;
+}
+
+.amount-summary{
+    font-size: 1.7rem;
+    margin-right:1.8rem;
+}
+
+.summary-1{
+    color:green;
+}
+
+.summary-2{
+    color:red;
+}
+.summary-3{
+    color:green;
+}
+.logout{
+    margin-top: 0.8rem;
+}
+
+.app{
+     opacity: 0;
+     transition:all 1s; 
+}
+
+.time{
+    
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:73em){
+    .transaction{
+	font-size:0.8rem;
+    width:9rem;
+    }
+    .date{
+        font-size: 0.8rem;
+        margin-left:3rem;
+    }
+    .transacted{
+        font-size:1.0rem;
+        margin-left:auto;
+    }
+}
+
+@media (max-width:75em){
+    .transaction{
+	font-size:0.8rem;
+    width:9rem;
+    }
+    .date{
+        font-size: 0.8em;
+        margin-left:3rem;
+    }
+    .transacted{
+        font-size:1.1rem;
+        margin-left:auto;
+    }
+}
+
+@media (max-width:69em){
+    .transaction{
+	font-size:0.8rem;
+    width:9rem;
+    }
+    .date{
+        font-size: 0.8em;
+        margin-left:3rem;
+    }
+    .transacted{
+        font-size:1.2rem;
+        margin-left:auto;
+    }
+}
+
+@media (max-width:63em){
+    .panel{
+        display: grid;
+    grid-template-columns:1fr;
+    margin-left:auto;
+}
+.date{
+    margin-right:7rem;
+}
+.section-2{
+    margin-left:auto;
+}
+.amount{
+    margin-left:auto;
+}
+aside{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:3rem;
+    justify-content: center;
+}
+.section-5{
+    margin-top:0;
+}
+.summary{
+    margin-left:2rem;
+}
+.btn-sort{
+    margin-right:1rem;
+}
+.greet{
+    font-size:20px;
+}
+.logo{
+    height:3.5rem;
+}
+#user-name{
+    width:6rem;
+    height:2.1rem;
+}
+#pin{
+    width:6rem;
+    height:2.1rem;
+}
+.enter{
+    font-size:1.6rem;
+}
+}
+
+
+@media (max-width:54em){
+    aside{
+        display:grid;
+        grid-template-columns: 1fr;
+        /* justify-content: center; */
+        margin-left:50%;
+        transform: translateX(-60%);
+    }
+    .section-5{
+        margin-top:1rem;
+    }
+    .section-3{
+        /* width:100vw; */
+        padding-right:3.5rem;
+    }
+    .current-balance{
+        font-size:1.1rem;
+    }
+    .current-date{
+        font-size:0.7rem;
+    }
+    .amount{
+        font-size: 2rem;
+    }  
+    .summary-base{
+        font-size:0.6rem;
+    }
+    .amount-summary{
+        font-size:1.3rem;
+    }
+    .logout{
+        font-size: 0.8rem;
+    }
+    .greet{
+        font-size:17px;
+        margin-right:1rem;
+    }
+    .logo{
+        height:3rem;
+        margin-right:1rem;
+    }
+    #user-name{
+        width:4.5rem;
+        height:1.7rem;
+        margin-right:0.6rem;
+        font-size:10px;
+    }
+    #pin{
+        width:4.5rem;
+        height:1.7rem;
+        margin-right:0.6rem;
+        font-size:10px;
+    }
+    .enter{
+        font-size:1.1rem;
+    }
+}
+
+
+

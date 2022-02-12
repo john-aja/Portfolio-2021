@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Banker </title>
+    <link type="text/css" rel="stylesheet" href="assets/Bankistcs.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet" />
+
+    <link rel="icon" href="assets/webicon.png" />
+    <script defer src="assets/Bankistjs.js"></script>
+</head>
+
+<body>
+
+    <section class="section-1">
+        <h2 class="greet"> Log in to get started! </h2>
+        <img class="logo" src="assets/Bankist.png" alt="Bank logo">
+        <div class="in"><input id="user-name" class="username" type="text" placeholder="user id" required />
+            <input id="pin" class="login-pin" type="text" placeholder="PIN" maxlength="4" required />
+            <button class="enter">&#8594;</button>
+        </div>
+    </section>
+
+    <main class="app">
+        <section class="section-2">
+            <div>
+                <h2 class="current-balance"> Current balance</h2>
+                <h4 class="current-date"> As of 26/09/2021, 20:26 </h4>
+            </div>
+            <h1 class="amount">$0,00,000</h1>
+        </section>
+
+        <div class="panel">
+            <section class="section-3">
+                <div class="transactions">
+                    <div class="transaction type-deposit"> 2 DEPOSIT </div>
+                    <div class="date"> 26/09/2021</div>
+                    <div class="transacted">1100 USD</div>
+                </div>
+                <!-- <div class="transactions">
+                    <div class="transaction type-withdrawal"> 1 WITHDRAWAL </div>
+                    <div class="date"> 25/09/2021</div>
+                    <div class="transacted">-500 USD</div>
+                </div> -->
+
+            </section>
+
+            <aside>
+                <section class="section-4">
+                    <h2 class="transfer"> Transfer money </h2>
+                    <div class="money-transfer">
+                        <input class="name input-transfer-to" type="text">
+                        <input class="name input-transfer-amount" type="number">
+                        <button class="btn btn-transfer-to">&#8594;</button>
+                        <div>
+                            <p class="info"> Transfer to</p>
+                            <p class="info"> Amount </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-5">
+                    <h2 class="transfer"> Request loan </h2>
+                    <div class="money-transfer">
+                        <input class="name input-loan" type="number">
+                        <button class="btn btn-loan">&#8594;</button>
+                        <div>
+                            <p class="info"> Amount </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-6">
+                    <h2 class="transfer"> Close account </h2>
+                    <div class="money-transfer">
+                        <input class="name close-user" type="text">
+                        <input class="name close-pin" type="text">
+                        <button class="btn btn-close">&#8594;</button>
+                        <div>
+                            <p class="info-1"> Confirm user</p>
+                            <p class="info-1"> Confirm PIN </p>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+        </div>
+
+        <section class="summary">
+            <div>
+                <span class="summary-base">IN</span><span class="amount-summary summary-1"> $0000</span>
+                <span>
+                    <span class="summary-base">OUT</span><span class="amount-summary summary-2"> $0000</span>
+                </span>
+                <span>
+                    <span class="summary-base">INTERST</span><span class="amount-summary summary-3">
+                        $0000</span>
+                </span>
+                <span>
+                    <span><button class="summary-base btn-sort">↓ SORT </button></span>
+                </span>
+            </div>
+            <div class="logout">
+                You will be logged out in <span class="time"> 10.00</span>
+            </div>
+        </section>
+    </main>
+</body>
+
+
+
+</html>

@@ -1,0 +1,6 @@
+{
+	"icon": [
+	{"src": "GalaxyIcon192Android.png", "type":"png", "sizes"="192×192"},
+	{"src": "GalaxyIcon512Android.png", "type":"png", "sizes"="512×512"}
+	]
+}

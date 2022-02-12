@@ -1,0 +1,21 @@
+{
+  "name": "foody",
+  "version": "1.0.0",
+  "description": "receipe application",
+  "submain": "foodyjs.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Ram",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "core-js": "^3.18.3",
+    "fractional": "^1.0.0",
+    "regenerator": "^0.14.7",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
