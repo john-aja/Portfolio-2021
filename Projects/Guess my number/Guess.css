@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    font-family: 'Press Start 2P', cursive;
+}
+.again{
+    display: inline-block;
+    margin-top:20px;
+    margin-left:10px;
+    padding:13px 30px;
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+    font-size:20px;
+    text-align: center;
+    text-decoration: none;
+    border:none;
+    font-family: inherit;
+    cursor: pointer;;
+}
+.between{
+   float:right;
+   font-size:10px;
+   margin-top:25px;
+    margin-right:10px;
+    letter-spacing: 3px;
+    color:white;
+}
+.guess{
+    font-size:35px;
+    text-align: center;
+    margin-top:30px;
+    color:white;
+}
+
+.hori {
+    display: flex;
+    flex-direction: row;
+}
+  
+.hori:before,
+.hori:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 6px solid rgb(255, 255, 255);
+    margin:auto;
+    margin-top:70px;
+}
+  
+.question{
+    font-size:60px;
+    margin-top:30px;
+    display:inline-block;
+    padding:10px 25px;
+    align-content: center;
+    background-color: white; 
+} 
+
+
+.section-3{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box{
+    height:80px;
+    width:240px;
+    margin:45px 0 40px 40%;
+    background:transparent;
+    border:5px solid rgb(255, 255, 255);
+    font-family: inherit;
+    font-size:40px;
+    text-align: center;
+    color:white;
+}
+.check{
+    padding:10px 30px;
+    background: white;
+    border:none;
+    margin-left:44%;
+    font-size:20px;
+    font-family: inherit;
+}
+.guess-result{
+    margin:45px 0 40px 80px;
+}
+.start-guess{
+    font-size:18px;
+    margin-bottom:30px;
+    color:white;
+}
+.score-1{
+    font-size:14px;
+    margin-top:90px;
+    margin-bottom:10px;
+    color:white;
+}
+.score-1{
+    font-size:14px;
+    margin-top:90px;
+    margin-bottom:10px;
+    color:white;
+}
+.high-score{
+    font-size:14px;
+    color:white;
+}
+.high-score-1{
+    font-size:14px;
+    color:white;
+}

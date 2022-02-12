@@ -1,0 +1,277 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+*:focus {
+    outline: none;
+}
+
+html {
+    font-size: 60%;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: whitesmoke;
+}
+
+.home {
+    position: relative;
+    z-index: 99;
+    height: 100vh;
+    width: 100vw;
+}
+
+.home_section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.home_section video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100vw;
+    object-fit: cover;
+}
+
+@media (max-width:750px) {
+    .home_section video {
+        height: 100%;
+        width: 150vw;
+    }
+}
+
+.home_section h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.323);
+    white-space: nowrap;
+    padding: 4rem;
+    text-shadow: 0px 5px 10px #0000;
+}
+
+.home_section h1 div {
+    text-align: center;
+}
+
+.nav_link {
+    position: absolute;
+    top: 7rem;
+    right: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.nav_link a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+.nav_link a:hover {
+    color: #5c78fc;
+}
+
+.nav_link .active-link {
+    color: #5c78fc;
+}
+
+.logo {
+    position: absolute;
+    top: 5rem;
+    left: 5%;
+    height: 5rem;
+    z-index: 2;
+}
+
+
+.section_5 {
+    background-color: #ffffff;
+    z-index: 99;
+    position: relative;
+    width: 100vw;
+}
+
+.section_5 h1 {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    font-size: 4rem;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+    color: #5c78fc;
+}
+
+.meeting {
+    padding: 1rem 10rem;
+    background-color: #8080806e;
+}
+
+.section_5 h3 {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.section_5 p {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    color: rgb(56, 56, 56);
+}
+
+form div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    padding-bottom: 3rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+label {
+    font-size: 2rem;
+}
+
+.input_class {
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    text-align: center;
+    font-family: inherit;
+
+}
+
+
+select {
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    text-align: center;
+    font-family: inherit;
+
+}
+
+.radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.radio input {
+    margin-right: 2rem;
+    font-family: inherit;
+}
+
+textarea {
+    max-width: 60rem;
+    max-height: 150px;
+    font-family: inherit;
+}
+
+.submit {
+    border-style: none;
+    width: 25rem;
+    height: 7rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    background-color: rgb(0, 255, 221);
+    color: rgb(43, 43, 43);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 800;
+    margin-bottom: 10rem;
+}
+
+
+footer {
+    background-color: #3a4266;
+    z-index: 99;
+    position: relative;
+    width: 100vw;
+    color: white;
+    padding: 5rem 0 2rem 10rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+footer h1 {
+    font-size: 3rem;
+    display: inline-block;
+    border-bottom: 2px solid rgb(0, 255, 221);
+    text-transform: uppercase;
+}
+
+footer div {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(0, 255, 221);
+    border: 2px solid rgb(0, 255, 221);
+    padding: 0.5rem 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 4px;
+}
+
+footer address {
+    padding-top: 3rem;
+}
+
+.copyright {
+    background-color: #242a43;
+    z-index: 99;
+    position: relative;
+    width: 100vw;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.copyright h4 {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}

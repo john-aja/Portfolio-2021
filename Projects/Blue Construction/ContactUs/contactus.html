@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> SetUp a Metting | Blue Construction </title>
+    <link type="text/css" rel="stylesheet" href="./src/contactuscss.css" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/74bca9a19c.js" crossorigin="anonymous"></script>
+
+    <script defer src="./blueindex.js"></script>
+
+</head>
+
+<body>
+
+
+    <section class="home">
+        <nav class="nav_link">
+            <a class="link active-link" href="#">Home</a>
+            <a class="link" href="#">About</a>
+            <a class="link" href="#">Services</a>
+            <a class="link" href="#">Gallery</a>
+            <a class="link" href="#">Contact</a>
+        </nav>
+
+        <div><img class="logo" src="./src/Logo.png" alt="Blue Construction Logo" /></div>
+
+        <div class="home_section">
+            <h1> Get In Touch! </h1>
+            <div class="video_wrap">
+                <video class="homer" autoplay loop muted>
+                    <source src="./src/contactvid.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+
+    <section class="section_5">
+        <h1>Set Up a Metting</h1>
+        <div class="meeting">
+            <h3>You deserve to love where you live and we would love to help you get there.</h3>
+            <p>You've dreamed about building a custom home already. Now it's time to get answers for the many questions
+                you
+                have. Get in touch today to set up a meeting and we'll help you get started on your very personal and
+                exciting journey.</p>
+
+            <form>
+                <div>
+                    <label>Name</label>
+                    <input class="input_class" type="text" placeholder="Your Name" required>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input class="input_class" type="email" placeholder="Your Email Address" required>
+                </div>
+                <div>
+                    <label>Phone</label>
+                    <input class="input_class" type="text" placeholder="Your Contact Number" required>
+                </div>
+                <div>
+                    <label>Where are you interested in building?</label>
+                    <input class="input_class" type="text" placeholder="Enter The Place Name" required>
+                </div>
+                <div>
+                    <label>When are you in the market to build a new home?</label>
+                    <select id="select-when" required>
+                        <option value="">Please choose one option</option>
+                        <option value="Now">Now</option>
+                        <option value="6MonthsOrLess">6 Months or less</option>
+                        <option value="6MonthsOrMore">6 Months or more</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <div>
+                    <label>How should we contact you?</label>
+                    <div class="radio">
+                        <label>Email</lable>
+                            <input type="radio" id="email" name="email or phone" value="email" />
+                            <lable>Phone</lable>
+                            <input type="radio" id="phone" name="email or phone" value="phone" />
+
+                    </div>
+                </div>
+                <div>
+                    <label>Additional Questions or Comments</label>
+                    <textarea> </textarea>
+                </div>
+                <div><button class="submit"> Send Email </button></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer>
+        <h1>Contact</h1>
+        <div>
+            <h3>Bala Abishek</h3>
+            <h3>+91 98760 54321</h3>
+            <h3>balaabishek@blueconstruction.com</h3>
+        </div>
+        <a href="#">Set Up A Meeting</a>
+
+        <address>
+            <h3>White House, Veerapan Street<br>P.O Box 999<br>Madurai, USA - 100 001</h3>
+        </address>
+    </footer>
+
+    <section class="copyright">
+        <h4>&copy; Copyright Blue Construction Pvt. Ltd. 2022 | Site Design by aj Designs & Developments | Registered in
+            India </h4>
+    </section>
+
+
+</body>
+
+</html>
