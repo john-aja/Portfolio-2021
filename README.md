@@ -1,5 +1,7 @@
 # Portfolio website
 
+![PORTFOLIO](https://github.com/john-aja/Portfolio-2021/assets/95049418/bcc2da97-550b-46b0-8ac0-229ddd307ced)
+
 Welcome to my portfolio repository! This website serves as a showcase of my work, skills, and experiences. It's designed to give visitors a clear understanding of who I am and what I can offer. The site features a responsive design to ensure it looks great on various devices and screen sizes.
 
 To open the portfolio in a browser, please click on the following link : https://ajramportfolio.netlify.app/
